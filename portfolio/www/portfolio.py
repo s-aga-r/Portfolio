@@ -5,7 +5,7 @@ def get_context(context):
 
     result = []
 
-    portfolio_names = frappe.db.get_all("Portfolio", {"is_active": 1})
+    portfolio_names = frappe.db.get_all("Portfolio", {"is_active": 1}, order_by="order_by")
 
     if portfolio_names:
         for portfolio_name in portfolio_names:
