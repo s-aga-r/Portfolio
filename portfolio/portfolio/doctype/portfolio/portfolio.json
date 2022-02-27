@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "is_active",
+  "order_by",
   "category",
   "filter",
   "items"
@@ -16,12 +17,17 @@
    "default": "1",
    "fieldname": "is_active",
    "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Is Active"
   },
   {
    "fieldname": "category",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Category",
    "reqd": 1,
    "unique": 1
@@ -39,11 +45,21 @@
    "label": "Filter",
    "read_only": 1,
    "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "order_by",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Order",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-27 10:01:38.375049",
+ "modified": "2022-02-27 17:47:51.897418",
  "modified_by": "Administrator",
  "module": "Portfolio",
  "name": "Portfolio",
