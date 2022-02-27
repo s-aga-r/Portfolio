@@ -29,7 +29,7 @@
   {
    "fieldname": "items",
    "fieldtype": "Table",
-   "label": "Items",
+   "label": "Folders",
    "options": "Portfolio Item",
    "reqd": 1
   },
@@ -43,7 +43,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-27 09:50:08.379594",
+ "modified": "2022-02-27 10:01:38.375049",
  "modified_by": "Administrator",
  "module": "Portfolio",
  "name": "Portfolio",
