@@ -4,3 +4,4 @@
 *.swp
 tags
 portfolio/docs/current
+node_modules/

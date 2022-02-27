@@ -10,8 +10,9 @@
     <title>{{ page_title }}</title>
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+    {% if favicon %}
+    <link href="{{favicon}}" rel="icon">
+    {% endif %}
 
     <!-- Google Fonts -->
     <link
@@ -19,12 +20,11 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="vendor/aos.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/portfolio/node_modules/aos/dist/aos.css" rel="stylesheet">
+    <link href="assets/portfolio/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/portfolio/node_modules/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/portfolio/node_modules/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/portfolio/node_modules/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="portfolio.css" rel="stylesheet">
@@ -76,15 +76,13 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="vendor/aos/aos.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="vendor/php-email-form/validate.js"></script>
-    <script src="vendor/purecounter/purecounter.js"></script>
-    <script src="vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="vendor/typed.js/typed.min.js"></script>
-    <script src="vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/portfolio/node_modules/aos/dist/aos.js"></script>
+    <script src="assets/portfolio/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/portfolio/node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="assets/portfolio/node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/portfolio/node_modules/@srexi/purecounterjs/dist/purecounter.js"></script>
+    <script src="assets/portfolio/node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/portfolio/node_modules/waypoints/src/waypoint.js"></script>
 
     <!-- Template Main JS File -->
     <script src="portfolio.js"></script>
