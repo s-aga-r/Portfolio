@@ -3,6 +3,7 @@
     "@srexi/purecounterjs": "srexi/purecounterjs",
     "aos": "^2.3.4",
     "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
     "boxicons": "^2.1.1",
     "glightbox": "^3.1.0",
     "isotope": "^1.0.0-alpha.3",
