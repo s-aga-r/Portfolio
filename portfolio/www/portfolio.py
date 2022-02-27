@@ -28,5 +28,6 @@ def get_context(context):
                 )
 
     context.data = result
+    context.page_title = frappe.db.get_single_value("Portfolio Settings", "page_title")
 
     return context
