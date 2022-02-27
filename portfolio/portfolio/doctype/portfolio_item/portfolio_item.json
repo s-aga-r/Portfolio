@@ -16,7 +16,8 @@
    "in_list_view": 1,
    "label": "Folder",
    "options": "File",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "default": "1",
@@ -29,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-02-27 09:13:13.310177",
+ "modified": "2022-02-27 09:44:32.248775",
  "modified_by": "Administrator",
  "module": "Portfolio",
  "name": "Portfolio Item",
